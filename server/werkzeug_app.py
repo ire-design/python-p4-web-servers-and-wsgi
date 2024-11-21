@@ -11,6 +11,6 @@ if __name__ == '__main__':
     from werkzeug.serving import run_simple
     run_simple(
         hostname='localhost',
-        port=5000,
+        port=5555,
         application=application
     )
